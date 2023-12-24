@@ -297,7 +297,7 @@ class _getchatdataState extends ConsumerState<getchatdata> {
                   return Container(
                     margin: EdgeInsets.symmetric(vertical: 30),
                     child: bloodrequest(
-                      isrequested: loadedmessages[index]['issend'],
+                      isrequested: !loadedmessages[index]['issend'],
                       isaccepted: !loadedmessages[index]['isaccepted'],
                       phonenumber: widget.phonenumber,
                       on_accept: () {

@@ -51,7 +51,9 @@ class _bloodrequestState extends State<bloodrequest> {
                                   crossAxisAlignment: CrossAxisAlignment.center,
                                   children: [
                                     ElevatedButton.icon(
-                                      onPressed: () {},
+                                      onPressed: () {
+                                        widget.on_accept();
+                                      },
                                       icon: const Icon(
                                         Icons.check,
                                         color: Colors.green,
