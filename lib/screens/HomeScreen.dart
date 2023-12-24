@@ -207,7 +207,10 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
     }
     if (usersdata!.isEmpty) {
       userslist = Center(
-        child: Text("No Users Avaliable...  $selecteddistrict"),
+        child: Text(
+          "No Users Avaliable...  in $selecteddistrict",
+          style: TextStyle(fontSize: 25),
+        ),
       );
       return;
     }
@@ -589,7 +592,7 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
             GButton(
               padding: EdgeInsets.all(10),
               gap: 10,
-              icon: Icons.favorite,
+              icon: Icons.people_outlined,
               text: 'Friends',
               iconColor: Color.fromARGB(255, 0, 0, 0),
             ),
