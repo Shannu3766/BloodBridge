@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "19307360023",
+    "project_id": "bloodbridge-690e5",
+    "storage_bucket": "bloodbridge-690e5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:19307360023:android:4aab2bf96896452b329152",
+        "android_client_info": {
+          "package_name": "com.example.bloodbridge"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCk6W22bo0nAx8ipc6qwCEhZY10M0GRmKI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
